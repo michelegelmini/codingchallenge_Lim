@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(0, 221, 0);
+    font-size: 65px;
+    font-weight: normal;
+
+}
+
+p {
+    font-size: 35px;
+}
+
+.black_background {
+
+    justify-content: top;
+    padding: 130px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 12px;
+    margin: 300px;
+    border-radius: 40px;
+
+}
+
+button {
+    font-size: 33px;
+    padding: 7px;
+    width: auto;
+}
+
+
+.buttons {
+    background-color: rgb(0, 221, 0);
+    padding: 14px;
+    justify-content: center;
+}
+
+ul {
+    text-align: left;
+
+}
+
+li {
+    list-style: none;
+    list-style-type: 12px;
+}
+
+input.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox {
+    font-size: larger;
+    /* font-style: bold; */
+}
+
+.orange_bar {
+    padding: 14px;
+    background-color: rgb(245, 180, 83);
+    width: 850px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.green_bar {
+    padding: 14px;
+    background-color: rgb(28, 195, 29);
+    width: 1850px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+.red_bar {
+    padding: 14px;
+    background-color: rgb(190, 65, 65);
+    width: 350px;
+    height: 55px;
+    border-radius: 5px;
+}
